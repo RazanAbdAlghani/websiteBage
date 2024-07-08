@@ -1,0 +1,251 @@
+/* Header section */
+@media screen and (max-width:700px) {
+    .container {
+        width: calc(100% - 150px);
+    }
+
+    header {
+        font-size: medium;
+    }
+
+    header .container .row {
+        flex-wrap: nowrap;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav svg{
+        display: block;
+    }
+
+    .auth a {
+        padding: 8px;
+        width: 60px;
+        font-size: 14px;
+    }
+
+    .auth .login {
+        color: #77AC20;
+    }
+
+    .auth .register {
+        color: #fff;
+        background-color: #77AC20;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1200px) {
+    .container {
+        width: calc(100% - 180px);
+    }
+
+    .row {
+        flex-wrap: nowrap;
+    }
+}
+
+/* footer section */
+
+@media (max-width:700px) {
+    .footer {
+        text-align: left;
+        padding: 3%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 7px 0px;
+        text-align: center;
+    }
+
+    .footer .row a i {
+        margin: 0% 2%;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+/* Hero section */
+@media screen and (max-width:700px) {
+    .gridAtt {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 38px;
+        padding: 12px;
+    }
+
+    .hero-left-side {}
+
+    .hero-left-side h1 {
+        font-size: 20px;
+    }
+
+    .hero-left-side .bottoms {
+        margin-top: 38px;
+    }
+
+    .hero-right-side img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero-left-side .bottoms button {
+        padding: 8px;
+
+    }
+
+    .bottoms .aboutMe {
+        font-size: 14px;
+    }
+
+    .bottoms .aboutMe a {
+        font-size: 14px;
+    }
+
+    .social-media {
+        gap: 7px;
+        margin-left: 8px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1200px) {
+    .gridAtt {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .hero-left-side h1 {
+        font-size: 32px;
+    }
+
+    .hero-left-side .bottoms {
+        margin-top: 45px;
+    }
+
+    .hero-right-side img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero-left-side .bottoms button {
+        padding: 8px;
+
+    }
+
+    .bottoms .aboutMe {
+        font-size: 16px;
+    }
+
+    .bottoms .aboutMe a {
+        font-size: 16px;
+    }
+
+}
+
+/* Blog Post section */
+@media screen and (max-width:700px) {
+    .blog-post {
+        margin-top: 60px;
+    }
+
+    .blog-post h2 {
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    .blog-post .articles {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        gap: 5px;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .card .card-body {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .card button {
+        width: 80px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card a {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width:1200px) {
+    .blog-post {
+        margin-top: 80px;
+    }
+
+    .blog-post h2 {
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .blog-post .articles {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        gap: 10px;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .card .card-body {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .card button {
+        width: 130px;
+        padding: 15px;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card a {
+        font-size: 14px;
+    }
+}

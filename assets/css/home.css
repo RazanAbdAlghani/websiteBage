@@ -1,0 +1,88 @@
+/* Hero section */
+.hero {
+    margin-top: 35px;
+}
+
+.hero .container {
+    padding: 10px;
+}
+
+.gridAtt {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    gap: 15px;
+    padding: 15px;
+}
+
+.hero-left-side {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-left-side h1 {
+    font-size: 35px;
+}
+
+.hero-left-side span {
+    color: #77AC20;
+}
+
+.hero-left-side .bottoms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    gap: 10px;
+}
+
+.hero-left-side .bottoms button {
+    display: flex;
+    padding: 10px;
+    border-radius: 38px;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+
+.bottoms .contactMe {
+    background-color: #77AC20;
+    border: none;
+}
+
+.bottoms .contactMe a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.bottoms .aboutMe {
+    border: 2px solid #707070;
+    font-size: 16px;
+}
+
+.bottoms .aboutMe a {
+    color: #707070;
+    font-size: 16px;
+}
+
+.hero-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right-side img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 8px;
+    margin-top: 60px;
+}

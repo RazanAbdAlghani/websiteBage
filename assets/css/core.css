@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.container {
+    width: calc(100% - 200px);
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

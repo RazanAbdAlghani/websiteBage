@@ -1,0 +1,17 @@
+main {
+    margin-top: 35px;
+    padding: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main h2 {
+    font-size: 28px;
+}
+
+main a {
+    color: #77AC20;
+    margin-top: 20px;
+}

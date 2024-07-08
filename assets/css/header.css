@@ -1,0 +1,38 @@
+header {
+    font-size: larger;
+    padding: 0 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 100px;
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+nav svg{
+    display: none;
+}
+
+nav ul a {
+    color: #101928;
+}
+
+.auth a {
+    padding: 10px;
+    width: 78px;
+    font-size: 16px;
+}
+
+.auth .login {
+    color: #77AC20;
+}
+
+.auth .register {
+    color: #fff;
+    background-color: #77AC20;
+    border-radius: 15px;
+}
+
